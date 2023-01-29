@@ -9,7 +9,7 @@ const init = async () => {
       cors: {
         origin: ['*'],
       },
-    },   
+    },
   });
 
   server.route(routes);
